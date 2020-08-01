@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.Square {
+  text-align: center;
+  background-color: cornsilk;
+  height: 40px;
+  width: 200px;
+  margin-left: 40%;
+}
