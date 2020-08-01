@@ -1,5 +1,5 @@
 import React from "react";
-import "./CuadroResultado.css";
+import "./Cuadro.css";
 
 export default function Cuadro() {
   const saludo = ["hola", "hello", "holaaa"];

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Cuadro from "./components/CuadroResultado";
+import Cuadro from "./components/Cuadro";
 
 function App() {
   return (
