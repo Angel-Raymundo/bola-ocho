@@ -5,7 +5,7 @@ import Logic from "./components/Logic";
 function App() {
   //tarea hacer el boton dinamico con un state, intentar cambiar la logica a otro componente
   return (
-    <div className="Square">
+    <div className="bg">
       <Logic />
     </div>
   );

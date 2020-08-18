@@ -1,3 +1,48 @@
-* {
-  background-color: blueviolet;
+.Circle {
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-top: 3%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Minicircle {
+  background-color: #171718;
+  width: 200px;
+  height: 200px;
+  border-width: 2px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cuadro {
+  background-color: white;
+  text-align: center;
+  position: absolute;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

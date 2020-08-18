@@ -1,0 +1,36 @@
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 0 rgba(225, 225, 225, 0.3);
+}
+
+.btnPlay {
+  background-color: #a4afa7;
+  color: white;
+  border-style: solid;
+  border-width: unset;
+  border-color: #9aa49d;
+  bottom: 9%;
+}
+
+.btnPlay:hover {
+  background-color: #9aa49d;
+}
+
+.btnMode {
+  background-color: #a4afa7;
+  color: white;
+  border-style: solid;
+  border-width: unset;
+  border-color: #9aa49d;
+  left: 4%;
+  top: 10%;
+}
+
+.btnMode:hover {
+  background-color: #9aa49d;
+}

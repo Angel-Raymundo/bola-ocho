@@ -1,7 +1,12 @@
 import React from "react";
+import "./Button.css";
 
 export default function Button({ onClick, trying }) {
-  return <button onClick={onClick}>{trying}</button>;
+  return (
+    <button onClick={onClick} className="button btnPlay">
+      {trying}
+    </button>
+  );
 }
 
 // Código en desuso

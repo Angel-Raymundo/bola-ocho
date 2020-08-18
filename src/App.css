@@ -1,5 +1,13 @@
-* {
-  background-color: darkgreen;
+.bg {
+  background-image: url("./components/images/billar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .App {
@@ -39,12 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.Square {
-  text-align: center;
-  background-color: cornsilk;
-  height: 40px;
-  width: 200px;
-  margin-left: 40%;
 }
