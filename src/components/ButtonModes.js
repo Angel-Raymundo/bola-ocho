@@ -1,10 +1,10 @@
 import React from "react";
 import "./Button.css";
 
-export default function ButtonModes({ onClick }) {
+export default function ButtonModes({ onClick, children }) {
   return (
-    <button onClick={onClick} className="button btnMode" ite>
-      Si/No
+    <button onClick={onClick} className="button btnMode">
+      {children}
     </button>
   );
 }
